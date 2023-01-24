@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+    <Button
+        android:id="@+id/insertar"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Insertar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="600px"/>
+
+    <Button
+        android:id="@+id/eliminar"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Eliminar"
+        android:layout_below="@id/insertar"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/descartar"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Descartar"
+        android:layout_below="@id/eliminar"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/buscar"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Buscar"
+        android:layout_below="@id/descartar"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/mostrar"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Mostrar todo"
+        android:layout_below="@id/buscar"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
